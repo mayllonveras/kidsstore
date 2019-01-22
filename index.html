@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Kids Store</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark  bg-logo mb-4">
+        <img id="logo" src="assets/img/logo.jpg" alt="Logo">
+        <span class="navbar-brand text-primary" href="#">Kids store</span>
+      </nav>
+  
+      <main role="main" class="container">
+        <div class="jumbotron">
+          <h1>Pedido de brinquedos</h1>
+         
+            <!-- tabela com os dados -->
+            <table class="table table-light">
+                <thead>
+                    <tr class="thead-dark">
+                        <th>Descrição</th>
+                        <th>Valor</th>
+                        <th>Quantidade</th>
+                        <th>Subtotal</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td class="descricao">
+                        <img src="assets/img/rex.png">
+                        Rex - Toy Story 3
+                    </td>
+                    <td class="valor">R$ 22,06</td>
+                    <td><input class="quantidade" type="number" min="0" max="99"></td>
+                    <td class="subtotal">R$ 0,00</td>
+                </tr>
+                <tr>
+                    <td class="descricao">
+                        <img src="assets/img/buzz.png">
+                        Buzz Lightyear
+                    </td>
+                    <td class="valor">R$ 99,99</td>
+                    <td><input class="quantidade" type="number" min="0" max="99"></td>
+                    <td class="subtotal">R$ 0,00</td>
+                </tr>
+                <tr>
+                    <td class="descricao">
+                        <img src="assets/img/woody-buzz.png">
+                        Boneco Woody e Buzz Lightyear - Pelúcia
+                    </td>
+                    <td class="valor">R$ 91,90</td>
+                    <td><input class="quantidade" type="number" min="0" max="99"></td>
+                    <td class="subtotal">R$ 0,00</td>
+                </tr>
+                <tr>
+                    <td class="descricao">
+                        <img src="assets/img/woody.png">
+                        Toy Story Xerife Woody Disney Musical
+                    </td>
+                    <td class="valor">R$ 399,00</td>
+                    <td><input class="quantidade" type="number" min="0" max="99"></td>
+                    <td class="subtotal">R$ 0,00</td>
+                </tr>
+                <tr>
+                    <td colspan="3">TOTAL</td>
+                    <td id="total">R$ 0,00</td>
+                </tr>
+            </table>
+            <!-- fim da tabela de dados -->
+
+        </div>
+      </main>
+
+
+      <footer class="navbar navbar-expand-md fixed-bottom navbar-dark bg-dark">
+          Avaliação prática da disciplina de introdução a Programação para Web
+      </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="assets/js/script.js"></script>
+</html>
