@@ -1,4 +1,4 @@
-# Avaliação Bimestral de Introdução á Programação para WEB (Recuperação II Bimestre)
+# Avaliação Bimestral de Introdução á Programação para WEB (Prova Final)
 
 ## Instruções
 ### 1 - Baixando o projeto
